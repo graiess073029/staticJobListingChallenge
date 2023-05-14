@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.cd7c38a4.css",
-    "main.js": "./static/js/main.65c374a0.js",
-    "static/media/LeagueSpartan-Bold.ttf": "./static/media/LeagueSpartan-Bold.287f5d6604adc2276da9.ttf",
-    "static/media/LeagueSpartan-Medium.ttf": "./static/media/LeagueSpartan-Medium.e855e0cd01fed78be96f.ttf",
-    "static/media/LeagueSpartan-Regular.ttf": "./static/media/LeagueSpartan-Regular.a3c27c406358bd7b1b3a.ttf",
-    "static/media/bg-header-desktop.svg": "./static/media/bg-header-desktop.752d0faf14c00c6fb55f968b61e827e0.svg",
-    "static/media/bg-header-mobile.svg": "./static/media/bg-header-mobile.b7750a0c3e0c016763b9a1fbcf1c340d.svg",
-    "index.html": "./index.html",
-    "static/media/icon-remove.svg": "./static/media/icon-remove.70c075ce001e5ccae7c68a570c4b7bc0.svg",
-    "main.cd7c38a4.css.map": "./static/css/main.cd7c38a4.css.map",
-    "main.65c374a0.js.map": "./static/js/main.65c374a0.js.map"
+    "main.css": "/static/css/main.fb815df1.css",
+    "main.js": "/static/js/main.62d91775.js",
+    "static/media/LeagueSpartan-Bold.ttf": "/static/media/LeagueSpartan-Bold.287f5d6604adc2276da9.ttf",
+    "static/media/LeagueSpartan-Medium.ttf": "/static/media/LeagueSpartan-Medium.e855e0cd01fed78be96f.ttf",
+    "static/media/LeagueSpartan-Regular.ttf": "/static/media/LeagueSpartan-Regular.a3c27c406358bd7b1b3a.ttf",
+    "static/media/bg-header-desktop.svg": "/static/media/bg-header-desktop.752d0faf14c00c6fb55f968b61e827e0.svg",
+    "static/media/bg-header-mobile.svg": "/static/media/bg-header-mobile.b7750a0c3e0c016763b9a1fbcf1c340d.svg",
+    "index.html": "/index.html",
+    "static/media/icon-remove.svg": "/static/media/icon-remove.70c075ce001e5ccae7c68a570c4b7bc0.svg",
+    "main.fb815df1.css.map": "/static/css/main.fb815df1.css.map",
+    "main.62d91775.js.map": "/static/js/main.62d91775.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd7c38a4.css",
-    "static/js/main.65c374a0.js"
+    "static/css/main.fb815df1.css",
+    "static/js/main.62d91775.js"
   ]
 }
