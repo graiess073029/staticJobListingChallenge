@@ -1,0 +1,208 @@
+@media screen and (min-width : 1000px ) {
+    .offer{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        padding: 10px 45px 10px 20px;
+        background-color: hsl(0,100%,100%);
+    }
+    
+    .offer .left{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .offer .left img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .offer .left .info{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 15px; 
+    }
+    
+    .offer .left .info div{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .offer .left .info p{
+        font-size: 15px;
+        font-weight: 500;
+        color: hsl(180, 29%, 50%);
+    }
+    
+    .offer .left .info :last-child p{
+        color: hsl(180, 8%, 52%) !important;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+    }
+    
+    .offer .left .info .new{
+        height: min-content;
+        display:flex;
+        align-items: center;
+        color: hsl(0,100%,100%);
+        background-color: hsl(180, 29%, 50%);
+        padding: 7px 10px 5px 10px;
+        border-radius: 20px;
+        font-size: 0.75em;
+    }
+    
+    .offer .left .info .featured{
+        height: min-content;
+        display:flex;
+        align-items: center;
+        color: hsl(0,100%,100%);
+        background-color: hsl(180, 14%, 20%);
+        padding: 7px 10px 5px 10px;
+        border-radius: 20px;
+        font-size: 0.75em;
+    
+    }
+    
+    .offer .left .info .position{
+        transition: 0.3s;
+        font-size: 1.25em;
+        color: hsl(180, 14%, 20%);
+        font-weight: 700;
+    }
+    
+    .offer .left .info .position:hover{
+        font-size: 1.25em;
+        color: hsl(180, 29%, 50%);
+        font-weight: 700;
+    }
+    
+    .offer .right{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .offer .right *{
+        transition: 0.2s;
+        height: min-content;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsl(180, 52%, 96%);
+        color: hsl(180, 29%, 50%);
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    
+    .offer .right *:hover{
+        cursor: pointer;
+        background-color: hsl(180, 29%, 50%);
+        color: hsl(0,100%,100%);
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+    .offer{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        padding: 10px 45px 10px 20px;
+        background-color: hsl(0,100%,100%);
+    }
+    
+    .offer .left{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 35px;
+        gap: 10px;
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+    }
+
+    
+    .offer .left img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .offer .left .info{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 15px; 
+    }
+    
+    .offer .left .info div{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .offer .left .info p{
+        font-size: 15px;
+        font-weight: 500;
+        color: hsl(180, 29%, 50%);
+    }
+    
+    .offer .left .info :last-child p{
+        color: hsl(180, 8%, 52%) !important;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+    }
+    
+    .offer .left .info .new{
+        height: min-content;
+        display:flex;
+        align-items: center;
+        color: hsl(0,100%,100%);
+        background-color: hsl(180, 29%, 50%);
+        padding: 7px 10px 5px 10px;
+        border-radius: 20px;
+        font-size: 0.75em;
+    }
+    
+    .offer .left .info .featured{
+        height: min-content;
+        display:flex;
+        align-items: center;
+        color: hsl(0,100%,100%);
+        background-color: hsl(180, 14%, 20%);
+        padding: 7px 10px 5px 10px;
+        border-radius: 20px;
+        font-size: 0.75em;
+    
+    }
+    
+    .offer .left .info .position{
+        transition: 0.3s;
+        font-size: 1.25em;
+        color: hsl(180, 14%, 20%);
+        font-weight: 700;
+    }
+    
+    .offer .right{
+        position: relative;
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .offer .right *{
+        height: min-content;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsl(180, 52%, 96%);
+        color: hsl(180, 29%, 50%);
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+}

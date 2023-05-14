@@ -1,0 +1,123 @@
+@media screen and (min-width : 769px) {
+    .console{
+        width: calc(80% - 65px);
+        height: 80px;
+        padding: 0% 45px 0% 20px;
+        background-color: hsl(0, 100%, 100%);
+        border-radius: 5px;
+        position: absolute;
+        top: 110px;
+        align-items: center;
+        justify-content: space-between;
+        transition: 1s;
+    
+    }
+    
+    .console .clear{
+        color: hsl(180, 8%, 52%) ;
+        font-weight: 500;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .console .clear:hover{
+        cursor: pointer;
+        font-weight: 700;
+        color: hsl(180, 29%, 50%) ;
+        text-decoration: underline ;
+    }
+    
+    ul.selected{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .selected li{
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: hsl(180, 52%, 96%);
+        padding: 0px 0px 0px 10px;
+        color: hsl(180, 29%, 50%);
+        font-weight: 700;
+    }
+    
+    .selected li div{
+        display: flex;
+        align-items: center;
+        background-color: hsl(180, 29%, 50%);
+        padding: 10px;
+        height: 100%;
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    .selected li div svg{
+        display: flex;
+        align-items: center;
+    }
+    
+    .selected li div:hover{
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .console{
+        width: calc(94% - 40px);
+        height: max-content;
+        padding: 20px 20px 20px 20px;
+        background-color: hsl(0, 100%, 100%);
+        border-radius: 5px;
+        position: relative;
+        bottom: 110px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        transition: 1s;
+    
+    }
+    
+    .console .clear{
+        color: hsl(180, 8%, 52%) ;
+        font-weight: 500;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    ul.selected{
+        width: calc(100% - 10% - 34px);
+        flex-wrap: wrap;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .selected li{
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: hsl(180, 52%, 96%);
+        padding: 0px 0px 0px 10px;
+        color: hsl(180, 29%, 50%);
+        font-weight: 700;
+    }
+    
+    .selected li div{
+        display: flex;
+        align-items: center;
+        background-color: hsl(180, 29%, 50%);
+        padding: 10px;
+        height: 100%;
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    .selected li div svg{
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
