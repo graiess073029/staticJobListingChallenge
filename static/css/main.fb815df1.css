@@ -1,19 +1,19 @@
 @font-face {
     font-family: Spartan;
     font-weight: 700;
-    src: url(/static/media/LeagueSpartan-Bold.287f5d6604adc2276da9.ttf)
+    src: url(/staticJobListingChallenge/static/media/LeagueSpartan-Bold.287f5d6604adc2276da9.ttf)
 }
 
 @font-face {
     font-family: Spartan;
     font-weight: 500;
-    src: url(/static/media/LeagueSpartan-Medium.e855e0cd01fed78be96f.ttf)
+    src: url(/staticJobListingChallenge/static/media/LeagueSpartan-Medium.e855e0cd01fed78be96f.ttf)
 }
 
 @font-face {
     font-family: Spartan;
     font-weight: 300;
-    src: url(/static/media/LeagueSpartan-Regular.a3c27c406358bd7b1b3a.ttf)
+    src: url(/staticJobListingChallenge/static/media/LeagueSpartan-Regular.a3c27c406358bd7b1b3a.ttf)
 }
 
 * {
@@ -402,7 +402,7 @@ html {
 
     header.top {
         background-color: #5ba4a4;
-        background-image: url(/static/media/bg-header-desktop.752d0faf14c00c6fb55f.svg);
+        background-image: url(/staticJobListingChallenge/static/media/bg-header-desktop.752d0faf14c00c6fb55f.svg);
         height: 156px;
         left: 0;
         position: absolute;
@@ -427,7 +427,7 @@ html {
 
     header.top {
         background-color: #5ba4a4;
-        background-image: url(/static/media/bg-header-mobile.b7750a0c3e0c016763b9.svg);
+        background-image: url(/staticJobListingChallenge/static/media/bg-header-mobile.b7750a0c3e0c016763b9.svg);
         height: 156px;
         width: 100%
     }
