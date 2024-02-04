@@ -1,19 +1,19 @@
 @font-face {
     font-family: Spartan;
     font-weight: 700;
-    src: url(/staticJobListingChallenge/static/media/LeagueSpartan-Bold.287f5d6604adc2276da9.ttf)
+    src: url(/static/media/LeagueSpartan-Bold.287f5d6604adc2276da9.ttf)
 }
 
 @font-face {
     font-family: Spartan;
     font-weight: 500;
-    src: url(/staticJobListingChallenge/static/media/LeagueSpartan-Medium.e855e0cd01fed78be96f.ttf)
+    src: url(/static/media/LeagueSpartan-Medium.e855e0cd01fed78be96f.ttf)
 }
 
 @font-face {
     font-family: Spartan;
     font-weight: 300;
-    src: url(/staticJobListingChallenge/static/media/LeagueSpartan-Regular.a3c27c406358bd7b1b3a.ttf)
+    src: url(/static/media/LeagueSpartan-Regular.a3c27c406358bd7b1b3a.ttf)
 }
 
 * {
@@ -59,12 +59,12 @@ html {
 @media screen and (min-width:1024px) {
     .offer {
         background-color: #fff;
-        border-radius: 5px;
+        border-radius: 9px;
         display: flex;
         height: -webkit-max-content;
         height: max-content;
         justify-content: space-between;
-        padding: 10px 45px 10px 20px
+        padding: 15px 45px 15px 20px
     }
 
     .offer .left {
@@ -73,8 +73,8 @@ html {
     }
 
     .offer .left img {
-        height: 80px;
-        width: 80px
+        height: 90px;
+        width: 90px
     }
 
     .offer .left .info {
@@ -326,6 +326,55 @@ html {
     }
 }
 
+@media screen and (min-width:769px) {
+    .root_inner {
+        background-color: #effafa;
+        height: 100%;
+        margin-top: 70px;
+        padding: 0 10% 60px
+    }
+
+    .offers {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: relative;
+        top: 156px
+    }
+
+    header.top {
+        background-color: #5ba4a4;
+        background-image: url(/static/media/bg-header-desktop.752d0faf14c00c6fb55f.svg);
+        height: 156px;
+        left: 0;
+        position: absolute;
+        width: 100vw
+    }
+}
+
+@media screen and (max-width:768px) {
+    .root_inner {
+        background-color: #effafa;
+        height: -webkit-max-content;
+        height: max-content;
+        margin-top: 70px;
+        padding: 0 3% 60px
+    }
+
+    .offers {
+        display: flex;
+        flex-direction: column;
+        gap: 50px
+    }
+
+    header.top {
+        background-color: #5ba4a4;
+        background-image: url(/static/media/bg-header-mobile.b7750a0c3e0c016763b9.svg);
+        height: 156px;
+        width: 100%
+    }
+}
+
 @media screen and (max-width:768px) {
     .console {
         align-items: center;
@@ -384,53 +433,5 @@ html {
     }
 }
 
-@media screen and (min-width:769px) {
-    .root_inner {
-        background-color: #effafa;
-        height: 100%;
-        margin-top: 70px;
-        padding: 0 10% 60px
-    }
 
-    .offers {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        position: relative;
-        top: 156px
-    }
-
-    header.top {
-        background-color: #5ba4a4;
-        background-image: url(/staticJobListingChallenge/static/media/bg-header-desktop.752d0faf14c00c6fb55f.svg);
-        height: 156px;
-        left: 0;
-        position: absolute;
-        width: 100vw
-    }
-}
-
-@media screen and (max-width:768px) {
-    .root_inner {
-        background-color: #effafa;
-        height: -webkit-max-content;
-        height: max-content;
-        margin-top: 70px;
-        padding: 0 3% 60px
-    }
-
-    .offers {
-        display: flex;
-        flex-direction: column;
-        gap: 50px
-    }
-
-    header.top {
-        background-color: #5ba4a4;
-        background-image: url(/staticJobListingChallenge/static/media/bg-header-mobile.b7750a0c3e0c016763b9.svg);
-        height: 156px;
-        width: 100%
-    }
-}
-
-/*# sourceMappingURL=main.fb815df1.css.map*/
+/*# sourceMappingURL=main.0ba8068d.css.map*/
